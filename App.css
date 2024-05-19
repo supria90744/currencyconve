@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing:border-box;
+    font-family: "Inter",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(82, 135, 4);
+}
+.currency{
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0,0,0.1);
+}
+h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 0 px;
+    margin-bottom: 15px;
+    color: darkgreen;
+    text-align: center;
+    border-top: 2px dashed green;
+    border-bottom:2px dashed green ;
+}
+.box{
+    width: 100%;
+    height: 200px;
+    background-image: url('./assets/img.png');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inputs{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 4px;
+    color: #888;
+    font-weight: 500;
+}
+input,select{
+    width: 100%;
+    padding: 2px;    
+    border:1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    outline: none;
+}
+input:focus,select:focus{
+    border-color: green;
+}
+.result{
+    margin:20px 0px;
+    padding: 5px;
+    border: 2px dotted green;
+    border-radius: 4px;
+}
+.result p{
+    margin: 5px 0;
+    color: darkgreen;
+    font-weight: bold;
+    text-align: center;
+}
